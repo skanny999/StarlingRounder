@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8B26B131229AB42C00A224BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26B130229AB42C00A224BE /* AppDelegate.swift */; };
-		8B26B133229AB42C00A224BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26B132229AB42C00A224BE /* ViewController.swift */; };
+		8B26B133229AB42C00A224BE /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26B132229AB42C00A224BE /* AccountViewController.swift */; };
 		8B26B136229AB42C00A224BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B26B134229AB42C00A224BE /* Main.storyboard */; };
 		8B26B138229AB42E00A224BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B26B137229AB42E00A224BE /* Assets.xcassets */; };
 		8B26B13B229AB42E00A224BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B26B139229AB42E00A224BE /* LaunchScreen.storyboard */; };
@@ -18,6 +18,7 @@
 		8B26B156229ABDEA00A224BE /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26B155229ABDEA00A224BE /* Transaction.swift */; };
 		8B26B158229AD35000A224BE /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26B157229AD35000A224BE /* Enums.swift */; };
 		8B26B15A229AD45000A224BE /* Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26B159229AD45000A224BE /* Amount.swift */; };
+		8B26B15C229ADC9600A224BE /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26B15B229ADC9600A224BE /* AccountViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +34,7 @@
 /* Begin PBXFileReference section */
 		8B26B12D229AB42C00A224BE /* StarlingRounder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarlingRounder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B26B130229AB42C00A224BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B26B132229AB42C00A224BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B26B132229AB42C00A224BE /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		8B26B135229AB42C00A224BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B26B137229AB42E00A224BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B26B13A229AB42E00A224BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,6 +47,7 @@
 		8B26B155229ABDEA00A224BE /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		8B26B157229AD35000A224BE /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		8B26B159229AD45000A224BE /* Amount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amount.swift; sourceTree = "<group>"; };
+		8B26B15B229ADC9600A224BE /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +91,8 @@
 			children = (
 				8B26B150229ABDB000A224BE /* Model */,
 				8B26B130229AB42C00A224BE /* AppDelegate.swift */,
-				8B26B132229AB42C00A224BE /* ViewController.swift */,
+				8B26B132229AB42C00A224BE /* AccountViewController.swift */,
+				8B26B15B229ADC9600A224BE /* AccountViewModel.swift */,
 				8B26B134229AB42C00A224BE /* Main.storyboard */,
 				8B26B137229AB42E00A224BE /* Assets.xcassets */,
 				8B26B139229AB42E00A224BE /* LaunchScreen.storyboard */,
@@ -220,8 +223,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B26B133229AB42C00A224BE /* ViewController.swift in Sources */,
+				8B26B133229AB42C00A224BE /* AccountViewController.swift in Sources */,
 				8B26B131229AB42C00A224BE /* AppDelegate.swift in Sources */,
+				8B26B15C229ADC9600A224BE /* AccountViewModel.swift in Sources */,
 				8B26B158229AD35000A224BE /* Enums.swift in Sources */,
 				8B26B15A229AD45000A224BE /* Amount.swift in Sources */,
 				8B26B154229ABDDF00A224BE /* SavingGoal.swift in Sources */,
