@@ -13,6 +13,11 @@
 		8B26B138229AB42E00A224BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B26B137229AB42E00A224BE /* Assets.xcassets */; };
 		8B26B13B229AB42E00A224BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B26B139229AB42E00A224BE /* LaunchScreen.storyboard */; };
 		8B26B146229AB42E00A224BE /* StarlingRounderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26B145229AB42E00A224BE /* StarlingRounderTests.swift */; };
+		8B26B152229ABDCE00A224BE /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26B151229ABDCE00A224BE /* Account.swift */; };
+		8B26B154229ABDDF00A224BE /* SavingGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26B153229ABDDF00A224BE /* SavingGoal.swift */; };
+		8B26B156229ABDEA00A224BE /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26B155229ABDEA00A224BE /* Transaction.swift */; };
+		8B26B158229AD35000A224BE /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26B157229AD35000A224BE /* Enums.swift */; };
+		8B26B15A229AD45000A224BE /* Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26B159229AD45000A224BE /* Amount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		8B26B141229AB42E00A224BE /* StarlingRounderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarlingRounderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B26B145229AB42E00A224BE /* StarlingRounderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarlingRounderTests.swift; sourceTree = "<group>"; };
 		8B26B147229AB42E00A224BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B26B151229ABDCE00A224BE /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		8B26B153229ABDDF00A224BE /* SavingGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingGoal.swift; sourceTree = "<group>"; };
+		8B26B155229ABDEA00A224BE /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		8B26B157229AD35000A224BE /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		8B26B159229AD45000A224BE /* Amount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,7 @@
 		8B26B12F229AB42C00A224BE /* StarlingRounder */ = {
 			isa = PBXGroup;
 			children = (
+				8B26B150229ABDB000A224BE /* Model */,
 				8B26B130229AB42C00A224BE /* AppDelegate.swift */,
 				8B26B132229AB42C00A224BE /* ViewController.swift */,
 				8B26B134229AB42C00A224BE /* Main.storyboard */,
@@ -94,6 +105,18 @@
 				8B26B147229AB42E00A224BE /* Info.plist */,
 			);
 			path = StarlingRounderTests;
+			sourceTree = "<group>";
+		};
+		8B26B150229ABDB000A224BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B26B157229AD35000A224BE /* Enums.swift */,
+				8B26B159229AD45000A224BE /* Amount.swift */,
+				8B26B151229ABDCE00A224BE /* Account.swift */,
+				8B26B153229ABDDF00A224BE /* SavingGoal.swift */,
+				8B26B155229ABDEA00A224BE /* Transaction.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +222,11 @@
 			files = (
 				8B26B133229AB42C00A224BE /* ViewController.swift in Sources */,
 				8B26B131229AB42C00A224BE /* AppDelegate.swift in Sources */,
+				8B26B158229AD35000A224BE /* Enums.swift in Sources */,
+				8B26B15A229AD45000A224BE /* Amount.swift in Sources */,
+				8B26B154229ABDDF00A224BE /* SavingGoal.swift in Sources */,
+				8B26B152229ABDCE00A224BE /* Account.swift in Sources */,
+				8B26B156229ABDEA00A224BE /* Transaction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
