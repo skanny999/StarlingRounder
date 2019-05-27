@@ -9,11 +9,11 @@
 import Foundation
 
 struct Amount: Codable {
-    
-    let currencyRaw: String?
+
+    let currency: String?
     let minorUnits: Int?
-    var currency: Currency? {
-        return Currency(rawValue: currencyRaw ?? "")
+    var currencyType: Currency? {
+        return Currency(rawValue: currency ?? "")
     }
     
 }

@@ -1,0 +1,17 @@
+{
+  "savingsGoalList": [
+    {
+      "savingsGoalUid": "88c38dd2-1615-4c18-a6b9-f8ec13100128",
+      "name": "Vacation",
+      "target": {
+        "currency": "GBP",
+        "minorUnits": 200000
+      },
+      "totalSaved": {
+        "currency": "GBP",
+        "minorUnits": 0
+      },
+      "savedPercentage": 0
+    }
+  ]
+}

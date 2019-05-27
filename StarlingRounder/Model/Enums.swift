@@ -12,4 +12,13 @@ enum Currency: String {
     
     case gbp = "GBP"
     case eur = "EUR"
+    
+    var symbol: String {
+        switch self {
+        case .gbp:
+            return "£"
+        case .eur:
+            return "€"
+        }
+    }
 }

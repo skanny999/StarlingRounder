@@ -8,12 +8,15 @@
 
 import Foundation
 
+struct SavingGoalsRoot: Codable {
+    let savingsGoalList: [SavingGoal]?
+}
+
 struct SavingGoal: Codable {
-    let savingGoalUid: String?
+    let savingsGoalUid: String?
     let name: String?
     let savedPercentage: Int?
-    let target: Amount
-    let totalSaved: Amount
-    
+    let target: Amount?
+    let totalSaved: Amount?
 }
 

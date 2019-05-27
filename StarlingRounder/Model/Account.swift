@@ -8,10 +8,28 @@
 
 import Foundation
 
+struct AccountsRoot: Codable {
+    let accounts: [Account]?
+}
+
 struct Account: Codable {
     
-    let accountUid: String
-    let defaultCategory: String
-    let currency: String
-    let createdAt: Date    
+    enum CodingKeys: String, CodingKey {
+        case accountUid
+        case defaultCategory
+        case currency
+        case createdAtString = "createdAt"
+    }
+    
+    var currencyType: Currency? {
+        return Currency(rawValue: currency ?? "")
+    }
+    let currency: String?
+    let accountUid: String?
+    let defaultCategory: String?
+
+    var createdAt: Date? {
+        return createdAtString?.dateValue
+    }
+    private let createdAtString: String?
 }

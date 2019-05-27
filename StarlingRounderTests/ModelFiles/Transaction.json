@@ -1,0 +1,30 @@
+{
+  "feedItems": [
+    {
+      "feedItemUid": "70fee09e-4c70-402b-b7c9-26f20b9dc3e8",
+      "categoryUid": "1514238e-52da-4ff0-9374-b5843ef90fe5",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 3675
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 3675
+      },
+      "direction": "OUT",
+      "updatedAt": "2019-05-26T12:11:22.149Z",
+      "transactionTime": "2019-05-26T11:42:09.784Z",
+      "settlementTime": "2019-05-26T11:42:09.784Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "a62b802a-e675-4f54-ae9f-f1065e40e905",
+      "counterPartyName": "593ed4b2-232d-4bb0-Bdf4-E5ab7fb3b1a1gb",
+      "counterPartySubEntityUid": "9f9cabe9-2fc0-4a9c-bd4f-fe93f4ee9509",
+      "reference": "  69e70436-7ff0-4b43-9eb8-eaabd1aeff9bGB",
+      "country": "GB",
+      "spendingCategory": "GENERAL"
+    }
+  ]
+}
