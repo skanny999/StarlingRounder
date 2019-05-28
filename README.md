@@ -1,6 +1,8 @@
 # StarlingRounder
 TestCode
 
+by Riccardo Scanavacca
+
 Enter your User authorization token in the `Constrants.swift` file
 
 # Assumptions
